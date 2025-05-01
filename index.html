@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lyrix Hosting - Schneller und zuverlässiger Hosting-Service für deine Game-Server.">
     <title>Lyrix Hosting</title>
+    <link rel="icon" href="logo.png" type="image/png">
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -14,10 +15,25 @@
             color: white;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
-            height: 100vh;
             text-align: center;
+            min-height: 100vh;
+        }
+
+        .logo-container {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .logo-container img {
+            height: 50px;
+            width: auto;
+        }
+
+        .content {
+            margin-top: auto;
+            margin-bottom: auto;
         }
 
         header {
@@ -43,6 +59,7 @@
             cursor: pointer;
             text-decoration: none;
             transition: all 0.3s ease;
+            margin: 10px 0;
         }
 
         .button:hover {
@@ -51,8 +68,8 @@
         }
 
         footer {
-            position: absolute;
-            bottom: 20px;
+            margin-top: auto;
+            margin-bottom: 20px;
             font-size: 0.9rem;
             color: #777;
         }
@@ -60,9 +77,16 @@
 </head>
 <body>
 
-    <header>Willkommen bei Lyrix Hosting</header>
-    <p>Tote website ich weiß.</p>
-    <a href="https://panel.lyrixhost.com" class="button">Zum Panel</a>
+    <div class="logo-container">
+        <img src="logo.png" alt="Lyrix Hosting Logo">
+    </div>
+
+    <div class="content">
+        <header>Willkommen bei Lyrix Hosting</header>
+        <p>Tote website ich weiß.</p>
+        <a href="https://panel.lyrixhost.com" class="button">Zum Panel</a>
+        <a href="https://support.lyrixhost.com" class="button">Support</a>
+    </div>
 
     <footer>&copy; 2025 Lyrix Hosting</footer>
 
