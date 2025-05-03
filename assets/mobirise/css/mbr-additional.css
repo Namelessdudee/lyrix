@@ -1101,6 +1101,64 @@ a {
 .cid-uK8qO8cPMd .mbr-section-btn {
   color: #838383;
 }
+.cid-uK8tvjlimk {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: #bbbbbb;
+}
+.cid-uK8tvjlimk .number-wrap {
+  color: #000000;
+  text-align: center;
+}
+.cid-uK8tvjlimk .number {
+  color: #000000;
+}
+.cid-uK8tvjlimk .period {
+  display: block;
+}
+.cid-uK8tvjlimk .dot {
+  display: none;
+}
+@media (max-width: 767px) {
+  .cid-uK8tvjlimk .period {
+    font-size: 0.8rem;
+  }
+}
+.cid-uK8tvjlimk .btn {
+  height: 100%;
+  margin: 0;
+}
+.cid-uK8tvjlimk .mbr-section-btn {
+  margin-bottom: 1.2rem;
+}
+.cid-uK8tvjlimk .icons-menu .soc-item {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.cid-uK8tvjlimk .icons-menu .soc-item .mbr-iconfont {
+  font-size: 2rem;
+  display: flex;
+  border-radius: 50%;
+  text-align: center;
+  color: #bbbbbb;
+  border: 2px solid #bbbbbb;
+  justify-content: center;
+  align-content: center;
+  transition: all 0.3s;
+}
+.cid-uK8tvjlimk .icons-menu .soc-item .mbr-iconfont:before {
+  padding: 0.6rem;
+}
+.cid-uK8tvjlimk .icons-menu .soc-item .mbr-iconfont:hover {
+  background-color: #bbbbbb;
+  color: #000000;
+}
+.cid-uK8tvjlimk H3 {
+  color: #000000;
+}
+.cid-uK8tvjlimk .mbr-section-subtitle {
+  color: #000000;
+}
 .cid-s48P1Icc8J {
   padding-top: 2rem;
   padding-bottom: 2rem;
